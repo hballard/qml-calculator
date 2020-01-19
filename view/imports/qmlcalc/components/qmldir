@@ -1,0 +1,3 @@
+InputButton 1.0 InputButtonForm.ui.qml
+OperatorButton 1.0 OperatorButtonForm.ui.qml
+Display 1.0 DisplayForm.ui.qml
