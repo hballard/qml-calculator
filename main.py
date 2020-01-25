@@ -8,7 +8,10 @@ from PySide2.QtCore import QUrl
 
 from controller import CalculatorController
 
-current_dir = os.path.dirname(os.path.realpath(__file__))
+if getattr(sys, 'frozen', False):
+    current_dir = sys._MEIPASS
+else:
+    current_dir = os.path.dirname(os.path.abspath(__file__))
 
 os.environ["QT_QUICK_CONTROLS_CONF"] = os.path.join(
     current_dir, "view", "qtquickcontrols2.conf"

@@ -4,11 +4,13 @@ import os
 
 block_cipher = None
 
+added_files = [('view', 'view')]
+
 
 a = Analysis(['main.py'],
              pathex=[],
              binaries=[],
-             datas=[],
+             datas=added_files,
              hiddenimports=[],
              hookspath=[],
              runtime_hooks=[],
