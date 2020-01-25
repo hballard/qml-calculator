@@ -6,7 +6,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['/Users/heath/Code/qml-calculator'],
+             pathex=[],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -41,3 +41,4 @@ app = BUNDLE(coll,
              name="Heath's QML Calculator.app",
              info_plist={'NSHighResolutionCapable': 'True'},
              icon=os.path.join('images', 'program_icon.icns'),
+             bundle_identifier=None)

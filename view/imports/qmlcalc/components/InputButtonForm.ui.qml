@@ -10,6 +10,7 @@ Rectangle {
     property alias mouseArea: mouseArea01
     property alias textColor: text01.color
     property alias text: text01.text
+    signal clicked
 
     Text {
         id: text01
