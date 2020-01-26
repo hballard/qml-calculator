@@ -13,9 +13,26 @@ excluded_binaries = [
     "QtLocation",
     "QtCharts",
     "QtDataVisualization",
-    "QtMulitmedia",
     "QtBluetooth",
-    "QtRemoteObjects"
+    "QtRemoteObjects",
+    "QtQuick3DRuntimeRender",
+    "QtPositioning",
+    "QtQuick3DRender",
+    "QtQuick3D",
+    "QtWebEngine",
+    "QtTest",
+    "QtSensors",
+    "QtSql",
+    "QtBodymovin",
+    "QtNfc",
+    "QtWebChannel",
+    "QtQuick3DAssetImport",
+    "QtPositioningQuick",
+    "QtGamepad",
+    "QtWebView",
+    "QtPurchasing",
+    "QtQuick3DUtils",
+    "QtMultimedia"
 ]
 
 a = Analysis(
