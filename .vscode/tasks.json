@@ -6,7 +6,7 @@
         {
             "label": "Build Application Binary Using PyInstaller",
             "type": "shell",
-            "command": "/Users/heath/.local/share/virtualenvs/qml-calculator-J7OZAtuT/bin/pyinstaller build.spec",
+            "command": "/Users/heath/.local/share/virtualenvs/qml-calculator-J7OZAtuT/bin/pyinstaller build.spec --noconfirm",
             "group": "build"
             
         },
